@@ -1,48 +1,75 @@
-# Object Tracking with OpenCV
+# Object Tracking using OpenCV
+
+A simple Object Tracking project built with Python and OpenCV.
 
 ## Overview
-This project demonstrates real-time object tracking using Python and OpenCV. The user selects an object from the camera feed, and the program tracks it using the CSRT tracker.
+
+This project demonstrates real-time object tracking using a webcam. The user selects an object from the first camera frame, and the tracker follows the selected object while it moves.
 
 ## Features
-- Real-time object tracking
-- Camera-based tracking
-- OpenCV CSRT Tracker
-- Easy object selection
-- Live tracking with a bounding box
 
-## Technologies
-- Python 3
+- Real-time object tracking
+- Webcam support
+- Manual object selection (ROI)
+- OpenCV CSRT Tracker
+- Simple and easy to use
+
+## Requirements
+
+- Python 3.x
 - OpenCV
 - NumPy
-
-## Installation
 
 Install the required libraries:
 pip install opencv-contrib-python numpy
 
-## Usage
+## How to Run
 
-Run the project:
+Run the project using:
 python object_tracking.py
 
-1. The camera will open.
-2. Select an object with the mouse.
-3. Press Enter or Space.
-4. Move the object and the tracker will follow it.
+### Steps
+
+1. The webcam opens.
+2. Select the object using the mouse.
+3. Press SPACE or ENTER.
+4. The tracker starts following the selected object.
+5. Press Q to exit.
 
 ## Project Structure
 Object-Tracking-OpenCV/
 │── object_tracking.py
 │── README.md
-│── screenshots/
-    └── tracking_result.png
+└── screenshots/
+    │── photo1.jpg
+    │── photo2.jpg
+    │── photo3.jpg
+    └── photo4.jpg
 
-## Result
+## Screenshots
 
-The selected object is tracked in real time using a green bounding box.
+### Object Selection
 
+![Object Selection](screenshots/photo1.jpg)
 
+### Object Tracking
+
+![Object Tracking](screenshots/photo2.jpg)
+
+### Terminal Output
+
+![Terminal](screenshots/photo3.jpg)
+
+### Source Code
+
+![Source Code](screenshots/photo4.jpg)
+
+## Technologies Used
+
+- Python
+- OpenCV
+- NumPy
 
 ## Author
 Turki Alkhelaiwi
-Summer Training 2026
+Summer Training Project 2026
