@@ -72,7 +72,7 @@ Object-Tracking-OpenCV/
 
 ![Source Code](screenshots/photo4.jpg)
 
-### The Code 
+## Source Code
 import cv2
 import time
 
