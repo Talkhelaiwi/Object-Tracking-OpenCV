@@ -73,6 +73,8 @@ Object-Tracking-OpenCV/
 ![Source Code](screenshots/photo4.jpg)
 
 ## Source Code
+
+```python
 import cv2
 import time
 
@@ -160,6 +162,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+```
 
 
 ## Author
