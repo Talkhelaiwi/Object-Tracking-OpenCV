@@ -167,4 +167,4 @@ cv2.destroyAllWindows()
 
 ## Author
 Turki Alkhelaiwi
-Summer Training Project 2026
+Summer Training Smart methods 2026
